@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esqueci a senha | Não consigo entrar | Facebook</title>
+  <link rel="stylesheet" href="/assets/style/Style-RecuperarSenha.css">
+  <link rel="short cut icon" href="/assets/img/faceicon.ico">
+</head>
+<body>
+
+  <header>
+   <a href="/Index.html"><img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook"> </a>
+
+   <div class="busca">
+   <input class="busca-email" placeholder="Email ou telefone" type="text"> 
+    <input class="busca-senha" type="password" placeholder="Senha">
+    <button class="entrar">Entrar</button>
+      <a href="/Recuperar-Senha.html" target="_blank">Esqueceu a conta?</a>
+  </div>
+
+  </header>
+  <div class="container">
+    <form>
+      <div class="borda">
+    <h2 class="encontre">Encontre sua conta</h2>
+    </div>
+    <p>Insira seu email ou número de celular para procurar a sua conta.</p>
+    <input class="email" placeholder="Email ou número de celular" type="text">
+    <div class="botoes">
+    <button class="pesquisar">Pesquisar</button>
+    <button class="cancelar">Cancelar</button>
+    </div>
+    </form>
+  </div>
+
+  <footer> Facebook © <span id="year"> 0</span></footer>
+  <script>
+    const year = document.getElementById('year');
+    const actualYear = new Date();
+
+    year.innerHTML = actualYear.getFullYear();
+  </script>
+
+</body>
+</html>

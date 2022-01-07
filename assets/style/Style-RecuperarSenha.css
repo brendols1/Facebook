@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebee;
+  align-items: center;
+}
+
+header {
+  background: #fff;
+  height: 56px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: block;
+  max-width: 147px;
+  padding: 4px;
+  float: left;
+  cursor: pointer;
+  /* ajustar background-color: black; */
+}
+.busca {
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+p {
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  width: 100%;
+  font-size: 17px;
+  margin-top: -15px;
+  padding: 16px 3px 18px 25px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.busca-email,
+.busca-senha {
+  box-sizing: border-box;
+  font-weight: normal;
+  margin-left: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  outline: none;
+  width: 188px;
+}
+.busca-senha:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 1px #e7f3ff;
+  caret-color: #1877f2;
+}
+.busca-email:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 1px #e7f3ff;
+  caret-color: #1877f2;
+}
+.busca-senha,
+.busca-email[placeholder] {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.entrar {
+  height: 40px;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 0.9375rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #1877f2;
+  border-radius: 6px;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+a {
+  color: #187ff2;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.entrar,
+.pesquisar {
+  transition: 200ms cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+body,
+input,
+button {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  height: 436px;
+  max-width: 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+}
+
+.email {
+  color: #8a8d91;
+  font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
+  height: auto;
+  outline: none;
+  margin: 0px 20px 19px;
+  padding: 17px 0px 16px 16px;
+  width: 460px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+}
+
+.email:focus::placeholder {
+  color: #b5b5bc;
+}
+
+.botoes {
+  border-top: 1px solid #dddfe2;
+}
+.entrar:hover {
+  background: #166fe5;
+}
+
+form {
+  /* att*/
+  margin: auto;
+  background: #ffff;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.encontre {
+  font-size: 20px;
+  margin-top: -15px;
+  padding: 18px 16px 18px 18px;
+  line-height: 24px;
+  margin: 0;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.cancelar,
+.pesquisar {
+  cursor: pointer;
+  padding: 0px 20px;
+  border: none;
+  margin: 15px 16px 16px -10px;
+  float: right;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.cancelar {
+  color: #4b4f56;
+  background-color: #e4e6eb;
+}
+.pesquisar {
+  color: #fff;
+  background-color: #1877f2;
+}
+
+.pesquisar:hover {
+  background: #166fe5;
+}
+footer {
+  height: 330px;
+  background: #fff;
+  font-size: 11px;
+  color: #737373;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
